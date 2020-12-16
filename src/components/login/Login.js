@@ -15,16 +15,17 @@ const Login = (props) => {
   const [isLogged, setIsLogged] = useState(false);
   const [count,setCount] = useState(0);
   useEffect(() => {
-    const token = localStorage.getItem("vendor_token");
-    console.log(token);
+             let config = {};
+             let token = localStorage.getItem("vendor_token");
 
-    if(token !== null){
-      console.log("token taken");
-setIsLogged(true)
+             if (token !== undefined) {
+               config.headers = { authorazation: "Bearer " + token };
 
-    }else{
-      setIsLogged(false)
-    }
+               axios.get("isLogged", config).then((res) => {
+                 setIsLogged(res.data.loggin);
+                 console.log(res);
+               });
+             }
    
   },[count]);
   const onLoginHandiler = () => {

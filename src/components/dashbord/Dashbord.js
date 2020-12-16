@@ -11,13 +11,17 @@ const Dashbord = (props) => {
 
 
   useEffect(() => {
-    const token = localStorage.getItem("vendor_token");
-    console.log(token);
-    if(token){
-setIslogin(true)
-    }else{
-      setIslogin(false)
-    }
+       let config = {};
+       let token = localStorage.getItem("vendor_token");
+
+       if (token !== undefined) {
+         config.headers = { authorazation: "Bearer " + token };
+
+         axios.get("isLogged", config).then((res) => {
+           setIslogin(res.data.loggin);
+           console.log(res);
+         });
+       }
 
   }, []);
 

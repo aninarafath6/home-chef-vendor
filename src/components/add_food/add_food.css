@@ -214,11 +214,17 @@
 }
 
 #add_vendor_section {
-    height: 30rem;
+    height: 35rem;
 }
 .vendor_input textarea{
     max-width: 21rem;
     max-height: 8rem;
     min-width: 21rem;
     min-height: 5rem;
+}
+#short_desc{
+    max-width : 21rem;
+    max-height: 4rem;
+    min-width : 21rem;
+    min-height: 3rem;
 }

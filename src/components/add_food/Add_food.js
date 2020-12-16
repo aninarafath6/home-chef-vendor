@@ -15,6 +15,7 @@ export default function Add_food() {
     const [item_name, SetItemName] = useState("");
     const [itemPrice, setItemPrice] = useState(0);
     const [category, setCategory] = useState("");
+    const [short_description, set_short_desc] = useState("");
     const [description, setDescription] = useState("");
     const [imgFile, setImgFile] = useState({});
     const [status, setStatus] = useState(false);
@@ -54,6 +55,7 @@ export default function Add_food() {
       formdata.append("itemPrice", itemPrice);
       formdata.append("description", description);
       formdata.append("category",category);
+      formdata.append("short_description", short_description);
 
       const options = {
         onUploadProgress: (progrssEvent) => {
@@ -94,7 +96,7 @@ export default function Add_food() {
               <>
                 <div className="add_vendor_container">
                   <div className="add_vendor_ovarly">
-                    <div ref={popUpRef} className="popup open_popup"> 
+                    <div ref={popUpRef} className="popup open_popup">
                       <div className="selected_img">
                         <img ref={selected_image} alt="" />
                         <i
@@ -164,7 +166,7 @@ export default function Add_food() {
                               Item Price
                             </label>
                           </div>
-                          
+
                           <div className="vendor_input">
                             <select
                               name="select"
@@ -181,6 +183,24 @@ export default function Add_food() {
                               <option value="noodles">noodles</option>
                               <option value="pasta">pasta</option>
                             </select>
+                          </div>
+                          <div className="vendor_input">
+                            <textarea
+                            minLength="55"
+                            maxLength="100"
+                              className="short_desc"
+                              name="shope_name"
+                              type="email"
+                              required
+                              id="short_desc"
+                              onChange={(e) => set_short_desc(e.target.value)}
+                            ></textarea>
+                            <label
+                              htmlFor="short_desc"
+                              className="vender_input_label"
+                            >
+                              Short Description
+                            </label>
                           </div>
                           <div className="vendor_input">
                             <textarea
