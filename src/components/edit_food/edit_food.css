@@ -1,0 +1,15 @@
+.image_show_button{
+        padding      : 7px;
+    width        : 124px;
+    margin-top   : 15px;
+    border       : none;
+    outline      : none;
+    border-radius: 5px;
+    font-weight  : bold;
+    color        : #fff;
+    text-decoration: none;
+      background-color: #ffb400;
+}
+#edit_vendor_section{
+    height: 36rem
+}

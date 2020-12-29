@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Redirect,useHistory } from "react-router-dom";
 import "./food_mng.css";
+import Edit_food from '../edit_food/edit_food.css'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 export default function Food_mng() {
@@ -17,12 +18,13 @@ export default function Food_mng() {
       });
     };
   const [UploadPercentage, setUploadPercentage] = useState(0);
-
+const url = useHistory();
   const [isLogged, setLogged] = useState();
   const [food_items, setFood_items] = useState([]);
   const [isLoding, setIsLoding] = useState(false);
+  const [count,setCount] = useState(0);
   const [auth, setAuth] = useState({});
-  console.log(food_items);
+  // console.log(food_items);
   useEffect(() => {
     let config = {};
     let token = localStorage.getItem("vendor_token");
@@ -40,7 +42,7 @@ export default function Food_mng() {
       setFood_items(response.data.food_item);
     });
     // console.log(response.data.vendors);
-  }, []);
+  }, [count]);
   console.log(isLogged);
   const On_remove_vendor = (id) => {
     axios.post("remove_vendor", { id: id }).then((res) => {
@@ -53,6 +55,9 @@ export default function Food_mng() {
       .then((response) => {
         notify(response.data.msg);
       });
+  }
+  const onEdit_food=(item_id)=>{
+url.push('/edit-item/'+item_id)
   }
   return (
     <>
@@ -71,6 +76,11 @@ export default function Food_mng() {
               <ToastContainer />
 
               <div className="popular_food_section">
+                  <div className="add_food_btn_section">
+                    <Link to="/add_food" className="add_food_btn">
+                      Add Food
+                    </Link>
+                    </div>           
                 <div className="pf_label">
                   <h3>All Food Items</h3>
                 </div>
@@ -115,7 +125,7 @@ export default function Food_mng() {
                             </h4>
                           </div>
                           <div className="add_to_cart">
-                            <button className="orange_button">
+                            <button className="orange_button" onClick={()=>onEdit_food(item._id)}>
                               <i class="fas fa-pencil-alt"></i>
                               Edit Item
                             </button>

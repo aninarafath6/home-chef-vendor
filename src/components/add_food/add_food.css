@@ -166,11 +166,15 @@
     position        : fixed;
     z-index         : 105;
     border          : none;
-    box-shadow      : 4px 3px 5px #d0d0d0;
+    box-shadow      : 2px 5px 10px 0px #00000038;
+    transition: .3s ease-in-out;
+    transform: translateX(0px);
 }
 
 .open_popup {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+        transform: translateY(35rem);
 }
 
 .selected_img {
@@ -184,7 +188,7 @@
     top      : 15px;
     right    : 16px;
     font-size: 25px;
-    color    : #ffffff;
+    color    : #ffb400;
     cursor   : pointer;
 }
 

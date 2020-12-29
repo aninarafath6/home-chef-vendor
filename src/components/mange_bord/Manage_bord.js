@@ -5,6 +5,8 @@ import Login from '../login/Login'
 import Header from '../header/Header'
 import Food_management from "../food_management/food_mng"; 
 import Add_food from '../add_food/Add_food'
+import Edit_food from '../edit_food/Edit_food';
+
 const Manage_bord = (props) => {
   const [reRender,setReRender]= useState(0);
   const reRender_func =e=>{
@@ -32,16 +34,10 @@ setReRender(e);
               <Route path="/add_food">
                 <Add_food />
               </Route>
-              {/* <Route path="/vendor">
-                <Vendor_manage/>
+              <Route path="/edit-item/:id">
+                <Edit_food  />
               </Route>
-              <Route path="/add_vendor">
-                <Add_vendor />
-              </Route>
-          
-              <Route path="/edit_vendor/:id">
-                <Edit_vendor/>
-              </Route> */}
+              
             </Switch>
           </div>
         </Router>

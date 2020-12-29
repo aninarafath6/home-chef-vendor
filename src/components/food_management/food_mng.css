@@ -1,7 +1,6 @@
 .popular_food_section {
     width     : 100%;
     height    : fit-content;
-    margin-top: 45px;
     padding   : 25px;
 }
 
@@ -108,10 +107,10 @@
     align-items    : center;
 
 }
-.add_to_cart button i{
+.add_to_cart button i,.add_to_cart a i{
     margin-right: 6px;
 }
-.add_to_cart button {
+.add_to_cart button,.add_to_cart a {
     padding      : 7px;
     width        : 124px;
     margin-top   : 15px;
@@ -120,6 +119,8 @@
     border-radius: 5px;
     font-weight  : bold;
     color: #fff;
+    text-decoration: none;
+    cursor: pointer;
 }
 .red_button{
     background-color:#ec3b1b;
@@ -127,7 +128,7 @@
     
 }
 .orange_button{
-    background-color: #f89c30;
+    background-color: #fbc538;
     transition: .3s ease-in-out;
 }
 .orange_button:hover{
@@ -172,4 +173,19 @@
     mix-blend-mode: overlay;
     color         : #fff;
     font-size     : 80px;
+}
+.add_food_btn_section{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.add_food_btn{
+    padding      : 6px 22px 6px 22px;
+    outline      : none;
+    border-radius: 6px;
+    border       : none;
+    background   : #fbc538;
+    font-weight  : 600;
+    color: #282932;
+    text-decoration: none;
 }

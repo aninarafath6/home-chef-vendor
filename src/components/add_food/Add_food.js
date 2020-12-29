@@ -112,7 +112,7 @@ export default function Add_food() {
                       >
                         <div className="add_vendor_header_label">
                           {UploadPercentage === 0 ? (
-                            <h3>Add Vendor</h3>
+                            <h3>Add Food Item</h3>
                           ) : (
                             <h3>Uploading {UploadPercentage}%</h3>
                           )}
