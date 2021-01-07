@@ -282,7 +282,7 @@ export default function Edit_food(props) {
                </div>
              </>
            )}
-           );
+           
          </>
        )}
      </>

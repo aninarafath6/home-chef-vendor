@@ -131,7 +131,7 @@ const Dashbord = (props) => {
           <div className="dashbord">
             <div className="dashboard_header">
               <div className="dashboard_header_name">
-                <h3>Home Chef Dashboard</h3>
+                <h3>Home Chef Vendor Dashboard</h3>
                 <h6>Welcome back, Lucy! We've missed you. 👋</h6>
               </div>
             </div>

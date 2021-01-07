@@ -186,8 +186,8 @@ export default function Add_food() {
                           </div>
                           <div className="vendor_input">
                             <textarea
-                            minLength="55"
-                            maxLength="100"
+                              minLength="55"
+                              maxLength="100"
                               className="short_desc"
                               name="shope_name"
                               type="email"
@@ -247,7 +247,7 @@ export default function Add_food() {
                 </div>
               </>
             )}
-            );
+            
           </>
         )}
       </>

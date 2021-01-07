@@ -11,3 +11,51 @@
 [1216/105834.551:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1216/194641.882:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1217/110138.549:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1231/230928.086:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/115122.252:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/120122.309:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/120122.360:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0101/120122.362:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/120122.362:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/120622.488:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/122122.492:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/123622.501:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/125122.512:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/130622.525:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/132122.535:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/133622.537:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/135122.541:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/140622.546:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/142122.555:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/143622.582:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/145122.584:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/150622.620:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/152123.342:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/153624.438:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/155125.315:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/160625.351:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/162125.361:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/163625.364:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/165125.912:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/170627.245:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/172131.864:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/173632.753:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/175133.285:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/210541.572:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/220148.889:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/221149.265:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/221149.321:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0101/221149.324:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/221149.325:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/221648.997:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/223149.295:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/224649.549:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/230151.246:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/231652.825:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0101/233154.149:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0102/110536.734:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0102/111536.798:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0102/111536.798:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0102/111536.800:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0102/111536.801:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0102/112037.844:ERROR:crash_report_database_win.cc(455)] unexpected header

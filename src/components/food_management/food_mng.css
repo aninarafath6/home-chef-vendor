@@ -1,191 +1,224 @@
-.popular_food_section {
-    width     : 100%;
-    height    : fit-content;
-    padding   : 25px;
-}
+.vendorTable {
+    padding: 15px;
 
-.pf_card_wrapper {
-    width          : 100%;
-    height         : 100%;
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-    flex-wrap      : wrap;
-}
-
-.pf_label {
-    width          : 100%;
-    height         : 4rem;
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-    color          : #282932;
-    font-size      : 22px;
-    padding-bottom : 1rem;
-}
-
-.pf_label h3 {
-    border-bottom : 3px solid #f8c628;
-    padding-bottom: 0.5rem;
-}
-
-.pf_card {
-    padding   : 9px;
-    box-shadow: 1px 3px 5px #2a2a2a73;
-    width : 17rem;
-    height: 26rem;
-    margin: 15px;
-
-}
-
-.info_section_pf,
-.img_section_pf {
-    width          : 100%;
-    height         : 50%;
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-    flex-direction : column;
-}
-
-.img_section_pf img {
-    width          : 73%;
-    height         : 100%;
-    object-fit     : cover;
-    object-position: center;
-    padding        : 6px;
-}
-
-.starts {
-    width          : 100%;
-    height         : 15px;
-    display        : flex;
-    justify-content: center;
-    padding        : 11px;
-    font-size      : 12px;
-    align-items    : center;
-
-}
-
-.pf_name {
-    width          : 100%;
-    display        : flex;
-    justify-content: center;
-    padding        : 11px;
-    font-size      : 12px;
-    align-items    : center;
-
-}
-
-.pf_name p {
-    color      : #282932;
-    font-weight: bold;
-}
-
-.starts i {
-    color: gold;
-}
-
-.mini_dic {
-    width          : 100%;
-    display        : flex;
-    justify-content: center;
-    font-size      : 12px;
-    align-items    : center;
-    padding        : 5px;
-    color          : #282932c4;
-}
-
-.mini_dic p {
-    text-align: center;
-}
-
-.add_to_cart {
-    width          : 100%;
-    display        : flex;
-    justify-content: space-between;
-    align-items    : center;
-
-}
-.add_to_cart button i,.add_to_cart a i{
-    margin-right: 6px;
-}
-.add_to_cart button,.add_to_cart a {
-    padding      : 7px;
-    width        : 124px;
-    margin-top   : 15px;
-    border       : none;
-    outline      : none;
-    border-radius: 5px;
-    font-weight  : bold;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-}
-.red_button{
-    background-color:#ec3b1b;
-    transition: .3s ease-in-out;
-    
-}
-.orange_button{
-    background-color: #fbc538;
-    transition: .3s ease-in-out;
-}
-.orange_button:hover{
-    background-color: #fbc538;
-}
-.red_button:hover{
-    background-color: #e76236;
-}
-
-.pf_price {
-    widows         : 100%;
-    display        : flex;
-    align-items    : center;
-    justify-content: center;
-}
-
-.pf_price h4 {
-    color: #282932;
-}
-
-.ads_back {
-    width                : 100%;
-    height               : 32rem;
-    background           : url('./assets/pexels-engin-akyurt-3219483.jpg');
-    background-attachment: fixed;
-    background-position  : center;
-    background-repeat    : no-repeat;
-    background-size      : cover;
-}
-
-.ads {
-    width                : 100%;
-    height               : 32rem;
-    background           : linear-gradient(#282932, #2e2830cf);
-    background-attachment: fixed;
-    display              : flex;
-    align-items          : center;
-    justify-content      : center;
-}
-
-.ads h1 {
-    mix-blend-mode: overlay;
-    color         : #fff;
-    font-size     : 80px;
-}
-.add_food_btn_section{
-    width: 100%;
     display: flex;
+}
+
+.vendorTable .MuiPaper-root {
+    width: 100%;
+}
+
+.vendorTable .MuiTypography-h6 {
+    font-weight: 700;
+    color      : #4782da;
+}
+
+.vendorTable .MuiIcon-root {
+    color: rgb(71, 130, 218);
+}
+
+#add_vendor_btn {
+    color: rgb(71, 130, 218);
+
+    box-shadow: 7px 7px 9px #e3e5e8,
+        -7px -7px 9px #ffffff;
+    background: #f7f9fc;
+}
+
+#add_vendor_btn:focus {
+    box-shadow: inset 5px 5px 5px #dee0e3,
+        inset -5px -5px 5px #ffffff;
+}
+
+.vendor_insert_btn_section {
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
     justify-content: flex-end;
 }
-.add_food_btn{
-    padding      : 6px 22px 6px 22px;
-    outline      : none;
-    border-radius: 6px;
-    border       : none;
-    background   : #fbc538;
-    font-weight  : 600;
-    color: #282932;
-    text-decoration: none;
+
+body {
+    background-color: rgb(247, 249, 252);
+}
+
+.vendorTable .MuiPaper-elevation2 {
+    background: #f7f9fc;
+    box-shadow: 7px 7px 9px #e3e5e8, -7px -7px 9px #ffffff;
+}
+
+.vendorTable .MTableHeader-header-14 {
+    background: #f7f9fc;
+}
+
+.vendorTable .MuiTableRow-root:hover {
+    transition: 1s ease;
+}
+
+.vendorTable .MuiTableRow-root:hover {
+    box-shadow: inset 5px 5px 5px #dee0e3,
+        inset -5px -5px 5px #ffffff;
+}
+
+.vendorTable .MuiIconButton-colorInherit {
+    box-shadow: none;
+}
+.vendorTable .MuiPaper-elevation2 {
+    background: #f7f9fc;
+    box-shadow: 7px 7px 9px #e3e5e8, -7px -7px 9px #ffffff;
+}
+
+.vendorTable .MTableHeader-header-14 {
+    background: #f7f9fc;
+}
+
+.vendorTable .MuiTableRow-root:hover {
+    transition: 1s ease;
+}
+
+.vendorTable .MuiTableRow-root:hover {
+    box-shadow: inset 5px 5px 5px #dee0e3,
+        inset -5px -5px 5px #ffffff;
+}
+
+.vendorTable .MuiIconButton-colorInherit {
+    box-shadow: none;
+}
+.vendorTable {
+    padding: 15px;
+
+    display: flex;
+}
+
+.vendorTable .MuiPaper-root {
+    width: 100%;
+}
+
+.vendorTable .MuiTypography-h6 {
+    font-weight: 700;
+    color      : #4782da;
+}
+
+.vendorTable .MuiIcon-root {
+    color: rgb(71, 130, 218);
+}
+.vendorTable {
+    padding: 15px;
+
+    display: flex;
+}
+
+.vendorTable .MuiPaper-root {
+    width: 100%;
+}
+
+.vendorTable .MuiTypography-h6 {
+    font-weight: 700;
+    color      : #4782da;
+}
+
+.vendorTable .MuiIcon-root {
+    color: rgb(71, 130, 218);
+}
+
+#add_vendor_btn {
+    color: rgb(71, 130, 218);
+
+    box-shadow: 7px 7px 9px #e3e5e8,
+        -7px -7px 9px #ffffff;
+    background: #f7f9fc;
+}
+
+#add_vendor_btn:focus {
+    box-shadow: inset 5px 5px 5px #dee0e3,
+        inset -5px -5px 5px #ffffff;
+}
+
+.vendor_insert_btn_section {
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: rgb(247, 249, 252);
+}
+
+.vendorTable .MuiPaper-elevation2 {
+    background: #f7f9fc;
+    box-shadow: 7px 7px 9px #e3e5e8, -7px -7px 9px #ffffff;
+}
+
+.vendorTable .MTableHeader-header-14 {
+    background: #f7f9fc;
+}
+
+.vendorTable .MuiTableRow-root:hover {
+    transition: 1s ease;
+}
+
+.vendorTable .MuiTableRow-root:hover {
+    box-shadow: inset 5px 5px 5px #dee0e3,
+        inset -5px -5px 5px #ffffff;
+}
+
+.MuiTableCell-alignLeft svg {
+    height: 36px;
+    width : 36px;
+    color : #233044;
+}
+
+.vendorTable .MuiInputBase-root {
+    box-shadow: inset 5px 5px 5px #dee0e3, inset -5px -5px 5px #ffffff;
+    padding   : 0 7.9px;
+    color     : #4782da;
+}
+
+.vendorTable .MuiInput-underline::before {
+    border: none;
+}
+
+.vendorTable .MuiInput-underline:hover:not(.Mui-disabled)::before {
+    border: none;
+}
+
+.vendorTable .MuiInput-underline:after {
+    border: none;
+}
+
+.vendorTable .MuiIconButton-colorInherit {
+    box-shadow: 7px 7px 9px #e3e5e8,
+        -7px -7px 9px #ffffff;
+    margin : 10px;
+    padding: 9px;
+}
+
+.vendorTable .MuiIconButton-colorInherit:hover {
+    box-shadow: inset 5px 5px 5px #dee0e3,
+        inset -5px -5px 5px #ffffff;
+}
+
+.vendorTable {
+    padding: 0 13px;
+    margin : 3rem 0;
+}
+
+.vendorTable .MuiTableCell-alignLeft svg {
+    height       : 36px;
+    width        : 36px;
+    color        : #4782da;
+    box-shadow   : inset 5px 5px 5px #dee0e3, inset -5px -5px 5px #ffffff;
+    padding      : 6px;
+    border-radius: 50%;
+}
+
+.vendorTable .MuiIconButton-colorInherit {
+    box-shadow: none;
+}
+
+.vendorTable .MTableHeader-header-13 {
+    top             : 0;
+    z-index         : 10;
+    position        : sticky;
+    background-color: #f7f9fc;
 }
