@@ -120,7 +120,7 @@ export default function Edit_food(props) {
                        <img
                          ref={selected_image}
                          src={
-                           "http://localhost:3008/vendor_food_image/" +
+                           "http://142.93.209.150:8080/vendor_food_image/" +
                            params.id +
                            ".jpg"
                          }

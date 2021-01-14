@@ -37,7 +37,7 @@ export default function Vendor() {
             objectFit: "cover",
             borderRadius: "50%",
           }}
-          src={"http://localhost:3008/vendor_food_image/" + rowData._id + ".jpg"}
+          src={"http://142.93.209.150:8080/vendor_food_image/" + rowData._id + ".jpg"}
         />
       ),
     },
@@ -57,7 +57,7 @@ export default function Vendor() {
         config.headers = { authorazation: "Bearer " + token };
       }
 
-      let url = "http://localhost:3008/vendor/get_all_prodects";
+      let url = "http://142.93.209.150:8080/vendor/get_all_prodects";
 
       fetch(url, config)
         .then((response) => response.json())

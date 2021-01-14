@@ -8,6 +8,15 @@
     display: none;
 } */
 
+.logo_section{
+    width: 300px;
+}
+.logo_section h3 span{
+    color: #4782DA;
+}
+.logo_section h3{
+    color: #ffffff;
+}
 .header_section {
     width           : 100%;
     height          : 5rem;
